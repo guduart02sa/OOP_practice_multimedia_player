@@ -1,0 +1,7 @@
+multimedia.o: multimedia.cpp multimedia.h
+main.o: main.cpp multimedia.h photo.h video.h film.h group.h \
+ manipulation.h tcpserver.h ccsocket.h server_decoder.h
+manipulation.o: manipulation.cpp manipulation.h multimedia.h group.h \
+ photo.h video.h film.h
+ccsocket.o: ccsocket.cpp ccsocket.h
+tcpserver.o: tcpserver.cpp tcpserver.h ccsocket.h
