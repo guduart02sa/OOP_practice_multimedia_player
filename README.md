@@ -1,3 +1,13 @@
+# Object Oriented Programming practice: Set-Top Box Multimedia
+
+The directory contains a set-top box multimedia system implemented in C++, following lectures in Télécom Paris, adhering to Object-Oriented Programming (OOP) principles:
+
+- **Encapsulation**: Data and methods are bundled within classes, limiting access through public, protected, and private access modifiers to maintain modularity and security.
+- **Abstraction**:  Key functionalities like media playback, channel browsing, and user interface are abstracted into high-level classes, hiding implementation details.
+- **Inheritance**: Base classes (e.g., MediaPlayer, RemoteControl) are extended by derived classes to add or modify behavior without altering the base class.
+- **Polymorphism**: Interfaces and virtual functions allow for dynamic binding, enabling different multimedia types (e.g., video, audio) to be handled through a unified interface, enhancing flexibility.
+
+
 # Running the Code
 
 To execute the code, follow these steps:
